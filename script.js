@@ -37,21 +37,3 @@ else if (eventType === 'formal' && tempFahr > 70) {
   result = 'Since it is ' +tempFahr+ ' degrees and you are going to a formal event, you should wear a suit and no jacket';
   console.log(result);
 }
-
-
-//var tempFahr=prompt("What is the temperature?", "");
-//var result=("");
-
-
-//if (eventType === "casual"){
-//else if (eventType === "semi-formal"){
-//console.log("Wear a polo and a jacket");}
-//else if (eventType === "formal"){
-
-//if (tempFahr === "less than 54 degrees"){
-//  console.log ("Wear something comfy and a coat");}
-//  else if (tempFahr === "54-70 degrees"){
-//      console.log ("Wear a polo and a jacket");}
-//  else if (tempFahr === "more than 70 degrees"){
-//      console.log ("Wear a suit and no jacket");
-//    }
