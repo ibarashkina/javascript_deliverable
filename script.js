@@ -23,7 +23,8 @@ else if (eventType === 'semi-formal' && tempFahr >= 54 && eventType === 'semi-fo
   console.log(result);
 }
 else if (eventType === 'semi-formal' && tempFahr > 70) {
-  console.log('Since it is ' +tempFahr+ ' degrees and you are going to a semi-formal event, you should wear a polo and no jacket')
+  result = 'Since it is ' +tempFahr+ ' degrees and you are going to a semi-formal event, you should wear a polo and no jacket';
+  console.log(result);
 }
 else if (eventType === 'formal' && tempFahr < 54) {
   result = 'Since it is ' +tempFahr+ ' degrees and you are going to a formal event, you should wear a suit and a coat';
